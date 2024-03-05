@@ -15,7 +15,7 @@ allprojects {
 }
 
 subprojects {
-    group = 'com.rentacar'
+    group = 'com.rentcar'
     version = 'v.0.1'
     java {
         sourceCompatibility = JavaVersion.VERSION_21
@@ -49,6 +49,7 @@ allprojects {
         implementation          libs.mapstruct
         annotationProcessor     libs.mapstructProcessor
         implementation          libs.springBootStarterActuator
+        implementation          libs.jwt
     }
 
     test{
