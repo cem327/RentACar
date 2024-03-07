@@ -1,3 +1,4 @@
 rootProject.name = 'RentACar'
 include 'AuthService'
 include 'ConfigServer'
+include 'ConfigServerGit'

@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${config_git_server}
+          default-label: "main"
+          skip-ssl-validation: true
+          username: "cem327"
+          password: ${cem327_github_token}
